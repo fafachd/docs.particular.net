@@ -154,7 +154,7 @@ When the original encryption key is replaced by a new encryption key, in-flight 
 
 To take full control over how properties are encrypted you can replace the `IEncryptionService` instance.
 
-This allows you to explicitly handled the encryption and decryption of each value. So for example if you want to use an algorithm other than Rijndael.
+This allows you to explicitly handle the encryption and decryption of each value. So for example if you want to use an algorithm other than Rijndael.
 
 snippet:EncryptionFromIEncryptionService
 
